@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WeatherTestSuite" thread-count="1" parallel="none">
+	<test name="WeatherTest">
+		<classes>
+			<class name="api.automation.weather.WeatherTest" />
+		</classes>
+	</test>
+</suite>

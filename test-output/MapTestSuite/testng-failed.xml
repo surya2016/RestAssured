@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [MapTestSuite]">
+  <test name="MapTest(failed)">
+    <classes>
+      <class name="api.automation.google.MapPlaceFindTest">
+        <methods>
+          <include name="findPlace"/>
+        </methods>
+      </class> <!-- api.automation.google.MapPlaceFindTest -->
+    </classes>
+  </test> <!-- MapTest(failed) -->
+</suite> <!-- Failed suite [MapTestSuite] -->
